@@ -10,7 +10,7 @@ Installation
     $ sudo aptitude update
     $ sudo aptitude install simplegeo-keyring
     $ sudo aptitude update
-    $ sudo aptiutde install python-hbase
+    $ sudo aptiutde install python-hbase-thrift
 
     OR
 
