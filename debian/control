@@ -2,7 +2,7 @@ Source: python-hbase
 Section: python
 Priority: optional
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
-Maintainer: Ben Standefer <benstandefer@gmail.com>, Ian Eure <ian@simplegeo.com>
+Uploaders: Ben Standefer <benstandefer@gmail.com>, Ian Eure <ian@simplegeo.com>
 Build-Depends: cdbs (>= 0.4.41), debhelper (>= 5.0.37.1), python-setuptools (>= 0.6a9), thrift-compiler, python
 Build-Depends-Indep: python-support (>= 0.2.3)
 Standards-Version: 3.8.4
