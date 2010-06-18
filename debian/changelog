@@ -1,3 +1,12 @@
+python-hbase (0.20.4-sg16) lucid; urgency=low
+
+  [ Ian Eure ]
+  * Fix previous commit.
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Fri, 18 Jun 2010 18:59:39 +0000
+
 python-hbase (0.20.4-sg0) unstable; urgency=low
 
   * Dummy entry for Hudson.
