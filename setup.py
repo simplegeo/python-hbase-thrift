@@ -6,7 +6,7 @@
 
 from setuptools import setup, find_packages
 
-setup(name="python-hbase",
+setup(name="python-hbase-thrift",
       version='0.20.4',
       description="Thrift client for HBase",
       url="http://hbase.apache.org/",
