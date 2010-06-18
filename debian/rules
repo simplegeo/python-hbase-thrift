@@ -13,7 +13,7 @@ DEB_PYTHON_INSTALL_ARGS := ${DEB_PYTHON_INSTALL_ARGS_ALL}
 UPSTREAM_VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d ' ' -f 2 | cut -d '-' -f 1)
 PYVER=$(shell python -V 2>&1 | cut -d ' ' -f 2 | cut -d . -f 1-2)
 
-configure/python-hbase::
+configure/python-hbase-thrift::
 	make all
 
 clean::

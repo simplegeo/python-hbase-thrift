@@ -1,4 +1,4 @@
-Source: python-hbase
+Source: python-hbase-thrift
 Section: python
 Priority: optional
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
@@ -8,7 +8,7 @@ Build-Depends-Indep: python-support (>= 0.2.3)
 Standards-Version: 3.8.4
 XS-Python-Version: all
 
-Package: python-hbase
+Package: python-hbase-thrift
 Architecture: all
 XB-Python-Version: ${python:Versions}
 Depends: ${misc:Depends}, ${python:Depends}, python-thrift
