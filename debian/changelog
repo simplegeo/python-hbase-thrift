@@ -1,0 +1,5 @@
+python-hbase (0.20.4-1) unstable; urgency=low
+
+  * Debianized.
+
+ -- Ben Standefer <benstandefer@gmail.com>  Mon, 14 Jun 2010 18:18:56 -0700
