@@ -1,3 +1,9 @@
+python-hbase-thrift (0.20.4-sg19) lucid; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Fri, 18 Jun 2010 21:25:42 +0000
+
 python-hbase-thrift (0.20.4-sg1) lucid; urgency=low
 
   [ Ben Standefer ]
