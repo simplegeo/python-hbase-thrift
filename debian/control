@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Ben Standefer <benstandefer@gmail.com>
 Build-Depends: cdbs (>= 0.4.41), debhelper (>= 5.0.37.1), python-setuptools (>= 0.6a9-1), thrift-compiler
-Build-Depends-Indep: python-dev, python-support (>= 0.2.3)
+Build-Depends-Indep: python-support (>= 0.2.3)
 Standards-Version: 3.7.2
 XS-Python-Version: all
 
