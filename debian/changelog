@@ -1,3 +1,12 @@
+python-hbase (0.20.4-sg18) lucid; urgency=low
+
+  [ Ben Standefer ]
+  * Change package name to python-hbase-thrift
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Fri, 18 Jun 2010 21:11:24 +0000
+
 python-hbase (0.20.4-sg16) lucid; urgency=low
 
   [ Ian Eure ]
