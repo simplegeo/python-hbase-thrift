@@ -1,0 +1,50 @@
+Pyhon-HBase
+================
+
+This package can be used to generate a Python egg for the HBase thrift bindings.
+
+Installation
+============
+
+    $ sudo add-apt-repository "deb http://apt.pub.simplegeo.com/ubuntu foss-development main"
+    $ sudo aptitude update
+    $ sudo aptitude install simplegeo-keyring
+    $ sudo aptitude update
+    $ sudo aptiutde install python-hbase
+
+    OR
+
+    $ make sdist
+    $ sudo easy_install dist/*.tar.gz
+
+Usage
+=====
+
+    #!/usr/bin/env python
+    import sys
+
+    from thrift import Thrift
+    from thrift.transport import TSocket
+    from thrift.transport import TTransport
+    from thrift.protocol import TBinaryProtocol
+
+    from hbase import Hbase
+    from hbase.ttypes import *
+
+    # Make socket
+    transport = TSocket.TSocket('localhost', 9090)
+
+    # Buffering is critical. Raw sockets are very slow
+    transport = TTransport.TBufferedTransport(transport)
+     
+    # Wrap in a protocol
+    protocol = TBinaryProtocol.TBinaryProtocol(transport)
+
+    client = Hbase.Client(protocol)
+    transport.open()
+
+    print client.getTableNames()
+
+    desc = ColumnDescriptor( { 'name' : 'foo:' } )
+    client.createTable('our_table', [desc])
+    print client.getTableNames()
